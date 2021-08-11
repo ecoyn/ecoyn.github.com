@@ -233,11 +233,9 @@ toc: true
 
 在你的博客的GitHub代码库页面里，点开_posts文件夹，这里面就是你的博客文章。
 
-这些文章使用的格式是Markdown，文件后缀名是md，这是一种非常简单易用的有格式文本标记语言，你应该已经注意到，在LOFFER自带的示例性博文中有一篇中文的[Markdown语法介绍](https://fromendworld.github.io/LOFFER/chinese-markdown-cheatsheet/)。
+这些文章使用的格式是Markdown，文件后缀名是md，这是一种非常简单易用的有格式文本标记语言。
 
 更简单的办法是使用[Typora](https://typora.io/)，这是一个全图形化界面，全实时预览的Markdown写作软件，非常轻量，而且免费。
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Typora.png)
 
 在发布博文前，你需要在文章的头部添加这样的内容，包括你的文章标题，发布日期，作者名，和tag等。
 
