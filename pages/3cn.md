@@ -1,12 +1,12 @@
 ---
 layout: cndefault
 permalink: /cn/
-title: 无求备斋笔记
+title: 印记
 ---
 
 <article>
 <blockquote><p>
-料知命中无大事，关心雪后有梅花。
+日常扯淡。
 </p></blockquote>
 </article>
 
