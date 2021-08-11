@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fan's Farm
+title: 印记
 ---
 
 <article>
