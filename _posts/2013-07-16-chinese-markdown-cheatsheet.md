@@ -226,74 +226,10 @@ toc: true
 
 如果需要使用以上标记字符而不被Markdown理解为格式标记，需要用`\`转义：例如`\\`，效果为\\。
 
-## LOFFER使用基础教程
-
-LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。
-
-这是一个可以直接发布在GitHub page的Jekyll博客，你不需要编写代码或使用命令行即可配置属于你的LOFFER。
-
-本文为针对完全没有代码基础的朋友的基础教程。
-
-### 注意
-
-LOFFER是一个**博客模板**。
-
-虽然意图有针对lofter用户，但是我个人狠不赞同纯外链停车操作，你整整齐齐打理个自由自在没有敏感词的个人博客有啥不好。
-
-**不要用我的Discus账户，请配置你自己的，本文档中有教程**
-
-如有疑问，请阅读[GitHub Pages官方说明](https://pages.github.com/)。
+## 使用基础教程
 
 
-### 图文教程
-
-注意以下需要上电脑操作。
-
-#### 第一步 使用这个template
-
-请点击[GitHub](https://github.com/)，注册一个GitHub账户，这是完全免费的，只要提供邮箱即可。
-
-现在你看到的LOFFER，是作为一个GitHub上的Repository（代码库）存在的，我将之设为可以作为template（模板），你可以用这个模板来生成一份自己的LOFFER。
-
-点击[LOFFER](https://github.com/FromEndWorld/LOFFER)，进入LOFFER的GitHub Repository页面，然后点**Use this template**，如图所示。
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/usetemplate.png)
-
-你会进入如下页面，请给你的博客起个名字，这里只能用字母和少数特殊字符，没有关系，这个名称并不影响你的博客页面显示。
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/nameyourbolg.png)
-
-点击**Create repository from template**，你很快就会看到如下页面，GitHub已经将LOFFER中所有的文件复制到你的新代码库中。
-
-下一步，点击Settings，进入相关设置。
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Settings.png)
-
-向下拉页面，你会看到“GitHub Pages”，这是GitHub内置的网站host服务，选择master，如图所示：
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/pages.png)
-
-在几秒钟后，刷新此页面，你通常会看到这个绿色的东西（如果没看到，多等一会），你的网站已经发布成功，点击这个链接，即可查看：
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/published.png)
-
-你可能会看到网站长得很丑，这是因为样式表尚未从正确的地址加载，没关系，请继续下一步。
-
-#### 第二步 设置站点信息
-
-在你的博客的GitHub代码库页面里，选择Code，文件列表里选择_config.yml，点击打开，然后点击右上角笔形图标修改文档。
-
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/config.png)
-
-关于如何修改站点信息，在文件内有文档说明。
-
-修改完成后，点击**Commit changes**（提交修改）。每次修改过代码库并且提交后，GitHub Pages都会自动重新发布网站，只要等上几分钟，再次刷新你的博客页面，就会看到你的修改了。这一修改完成后，你的博客站应该可以正常显示了。
-
-如果刷新看不到效果，请使用“强刷新”，一般来说按ctrl+R。
-
-还有一点，**LOFFER使用的是MIT协议，大意就是全部开源随意使用，如果你要保留自己博文的权利，请编辑LICENSE文件，写上类似“博文作者保留权利”这样的内容。**
-
-#### 第三步 发布博文
+####  发布博文
 
 在你的博客的GitHub代码库页面里，点开_posts文件夹，这里面就是你的博客文章。
 
@@ -307,9 +243,9 @@ LOFFER是一个**博客模板**。
 
     ---
     layout: post
-    title: LOFFER文档
+    title: 标题
     date: 2019-06-02
-    Author: 来自中世界
+    Author: 作者
     categories: 
     tags: [sample, document]
     comments: true
