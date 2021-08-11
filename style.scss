@@ -332,7 +332,7 @@ img {
   border-right: 1px solid $divider-color;
 
   @include mobile {
-    width: 100%;
+    width: 50%;
     height: auto;
     padding-bottom: 24px;
     position: relative;
