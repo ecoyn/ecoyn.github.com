@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown语法简介
-tags: markdown
+tags: 教程
 toc: true
 ---
 Markdown语法，方便写博客时参考。
