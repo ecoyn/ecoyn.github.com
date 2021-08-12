@@ -247,6 +247,7 @@ toc: true
     categories: 
     tags: [sample, document]
     comments: true
+    pinned: true
     --- 
 
 完成后，保存为.md文件，文件名是date-标题，例如 2019-06-02-document.md (注意这里的标题会成为这篇博文的链接，所以请使用字母而非中文，它不影响页面上显示的标题)，然后上传到_posts文件夹，再提交修改，很快就可以在博客上看到新文章了。
