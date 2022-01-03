@@ -4,4 +4,4 @@ title: 关于
 permalink: /about/
 ---
 
-✉️ ynq@outlook.com
+✉️ ynq在outlook.com
